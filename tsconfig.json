@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es6", // Compile to ES6
+    "module": "es6", // Use ES6 modules
+    "outDir": "./dist/", // Output compiled files to /dist
+    "rootDir": "./", // Set the root directory for source files
+    "moduleResolution": "node", // Module resolution strategy
+    "sourceMap": true, // Generate source maps for debugging
+    "esModuleInterop": true, // Enables compatibility with default imports from CommonJS modules
+    "allowJs": true, // Allow JavaScript files to be compiled
+    "strict": true, // Enable all strict type-checking options
+    "noImplicitAny": true, // Raise error on expressions and declarations with an implied 'any' type
+    "strictNullChecks": true, // Enable strict null checks
+    "jsx": "preserve", // Preserve JSX syntax in the output
+    "baseUrl": "./src",
+    "paths": {
+      "*": [
+        "*",
+        "layers/*"
+      ]
+    }
+  }
+}
